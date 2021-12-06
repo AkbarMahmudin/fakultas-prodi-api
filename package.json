@@ -1,0 +1,34 @@
+{
+  "name": "fakultas-prodi-api",
+  "version": "1.0.0",
+  "description": "Open proyek divisi Researh Group Kompetegram",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkbarMahmudin/fakultas-prodi-api.git"
+  },
+  "keywords": [
+    "UPI",
+    "Kompetegram",
+    "ResearchGroup",
+    "open-api"
+  ],
+  "author": "AkbarMahmudin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkbarMahmudin/fakultas-prodi-api/issues"
+  },
+  "homepage": "https://github.com/AkbarMahmudin/fakultas-prodi-api#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
